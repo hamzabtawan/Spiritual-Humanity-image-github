@@ -1,0 +1,116 @@
+@media screen and (max-width: 694px) {
+    .login_section_1 {
+        background: url("protect5.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        justify-content: center;
+    }
+
+    .div_1 {
+        width: 100%;
+        background: transparent;
+    }
+
+    .div_2 {
+        width: 0%;
+        background: transparent;
+    }
+
+    .div_1 form {
+        width: 400px;
+        height: 450px;
+        margin-right: 0px;
+    }
+
+    .div_1 form h1 {
+        font-size: 1.5rem;
+    }
+
+    .div_1 form p {
+        font-size: 0.8rem;
+    }
+
+    .div_1 form a {
+        font-size: 0.8rem;
+        width: 350px;
+    }
+
+    .div_1 form label {
+        font-size: 1rem;
+        width: 350px;
+    }
+
+    
+}
+@media screen and (max-width: 420px){
+    .div_1 form {
+        width: 370px;
+        height: 340px;
+    }   
+    .div_1 form label {
+        font-size: 0.9rem;
+        width: 340px;
+    }
+
+    
+}
+@media screen and (max-width: 380px){
+    .div_1 form {
+        width: 340px;
+    }   
+    .div_1 form label {
+        width: 310px;
+    }
+}
+@media screen and (max-width: 356px){
+    .div_1 form {
+        width: 320px;
+    }   
+    .div_1 form label {
+        width: 300px;
+    }
+    .div_1 form input {
+        margin-left: 5px;
+    }
+}
+@media screen and (max-width: 332px){
+    .div_1 form {
+        width: 310px;
+    }   
+    .div_1 form label {
+        width: 290px;
+    }
+}
+@media screen and (max-width: 320px){
+    .div_1 form {
+        width: 300px;
+    }   
+    .div_1 form label {
+        width: 280px;
+    }
+}
+@media screen and (max-width: 310px){
+    .div_1 form {
+        width: 290px;
+    }   
+    .div_1 form label {
+        width: 270px;
+    }
+}
+@media screen and (max-width: 300px){
+    .div_1 form {
+        width: 280px;
+    }   
+    .div_1 form label {
+        width: 260px;
+    }
+}
+@media screen and (max-width: 290px){
+    .div_1 form {
+        width: 270px;
+    }   
+    .div_1 form label {
+        width: 250px;
+    }
+}

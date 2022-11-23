@@ -1,0 +1,40 @@
+@media screen and (max-width: 866px){
+    
+.privacy_1{
+    padding: 20px 0px;
+    margin: 0 30px;
+    margin-bottom: 70px;
+}
+.privacy_1 h1{
+    font-size: 2rem;
+}
+.privacy_2{
+    margin: 0 30px;
+    padding: 30px;
+    margin-bottom: 70px;
+}
+.privacy_2 p{
+    font-size: 0.8rem;
+}
+
+}
+@media screen and (max-width: 570px){
+    
+    .privacy_1{
+        padding: 10px 0px;
+        margin: 0 10px;
+        margin-bottom: 40px;
+    }
+    .privacy_1 h1{
+        font-size: 1.5rem;
+    }
+    .privacy_2{
+        margin: 0 10px;
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+    .privacy_2 p{
+        font-size: 0.7rem;
+    }
+    
+    }

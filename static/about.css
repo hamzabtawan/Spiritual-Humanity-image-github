@@ -1,0 +1,158 @@
+.section1{
+    height: 150px;
+    /* background-image: linear-gradient(rgb(50, 141, 153), rgb(147, 187, 192), white); */
+    background-color: white;
+    background: url("about1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section1 h1{
+    /* border: 10px solid blue; */
+    font-size: 3rem;
+    /* color: rgb(71, 71, 71); */
+    color: white;
+    font-weight: lighter;
+}
+.about_one{
+    /* border: 2px solid rgb(0, 4, 255); */
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 600px;
+}
+.about_one_1{
+    /* border: 2px solid red; */
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    height: 400px;
+    margin-right: 50px;
+}
+.about_one_2{
+    /* border: 2px solid red; */
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 400px;
+    margin-left: 50px;
+}
+.about_one div img{
+    border: 0px solid red;
+    /* width: 400px; */
+}
+.about_one div h2{
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    color:  rgb(43, 43, 43);
+}
+.about_one div p{
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color:  rgb(43, 43, 43);
+}
+.about_one div button{
+    border: 0px;
+    background-color: rgb(50, 141, 153);
+    border-radius: 5px;
+    /* font-weight: bold; */
+    height: 40px;
+}
+.about_one div button:hover{
+    background-color: white;
+    transition-duration: 1s;
+}
+.about_one div button a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 5px 15px;
+}
+.about_one div button a:hover{
+    color: rgb(50, 141, 153);
+    transition-duration: 1s;
+}
+.about_two{
+    /* border: 2px solid rgb(255, 251, 0); */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+}
+.about_two_1{
+    /* border: 2px solid rgb(0, 60, 255); */
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.about_two_1 h1{
+    /* border: 2px solid rgb(0, 60, 255); */
+    color: rgb(43, 43, 43);
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.about_two_1 p{
+    /* border: 2px solid rgb(0, 60, 255); */
+    color: rgb(43, 43, 43);
+    text-align: center;
+    font-size: 1rem;
+}
+.about_two_2{
+    /* border: 2px solid rgb(51, 255, 0); */
+    height: 500px;
+    width: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.about_two_2_1, .about_two_2_2, .about_two_2_3{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 400px;
+    width: 280px;
+    
+}
+.about_two_2_1 h1, .about_two_2_2 h1, .about_two_2_3 h1{
+    /* border: 2px solid red; */
+    font-size: 2.5rem;
+    color: rgb(43, 43, 43);
+}
+.about_two_2_1 h2, .about_two_2_2 h2, .about_two_2_3 h2{
+    /* border: 2px solid red; */
+    font-size: 1.5rem;
+    color: rgb(43, 43, 43);
+    margin-bottom: 20px;
+}
+.about_two_2_1 i, .about_two_2_2 i, .about_two_2_3 i{
+    /* border: 2px solid red; */
+    background-color: aliceblue;
+    color: rgb(43, 43, 43);
+    border-radius: 50%;
+    padding: 30px;
+}
+.about_two_2_3 i{
+    padding: 30px 40px;
+}
+.about_two_2_1 p, .about_two_2_2 p, .about_two_2_3 p{
+    /* border: 2px solid red; */
+    font-size: 0.9rem;
+    text-align: center;
+    color: rgb(43, 43, 43);
+}

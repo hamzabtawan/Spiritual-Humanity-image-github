@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'home2.css' %}">
+    <link rel="stylesheet" href="{% static 'register.css' %}">
+    <link rel="stylesheet" href="{% static 'register_responsive.css' %}">
+    <title>Talash - Register</title>
+</head>
+
+<body>
+    <section class="login_section_1">
+        <div class="div_1">
+            <form action="/register" method="post" class="signup_form" id="form_2">
+                {% csrf_token %}
+                {% load static %}
+                {% for message in messages %}
+                <div class="alert alert-{{ message.tags }} alert-dismissible fade show my_own_css" role="alert">
+                    {{ message }}
+                </div>
+                {% endfor %}
+                <h1>WELCOME</h1>
+                <p>Please register your account</p>
+                <label for="">Username</label>
+                <input class="input" type="text" name="username" id="" placeholder="enter your username" required>
+                <label for="">First Name</label>
+                <input class="input" type="text" name="fname" id="" placeholder="enter your first name" required>
+                <label for="">Last Name</label>
+                <input class="input" type="text" name="lname" id="" placeholder="enter your last name" required>
+                <label for="">Email Address</label>
+                <input class="input" type="email" name="email" id="" placeholder="enter your email" required>
+                <label for="">Password</label>
+                <input class="input" type="password" name="password" id="" placeholder="enter your password" required>
+                <label for="">Confirm Password</label>
+                <input class="input" type="password" name="password2" id="" placeholder="re-enter your password" required>
+                <div class="div1">
+                    <input type="checkbox" required>
+                    <p style="margin: 0;">I agreed to <a href="/terms-of-condition" target="_blank"> terms and
+                            conditions</a></p>
+                </div>
+                <div class="div2">
+                    <!-- <a href="index.html"><i class="fa fa-arrow-left"
+                        aria-hidden="true"></i></a> -->
+                    <input class="input2" type="button" value="Back" onclick="history.back()">        
+                    <button type="submit">Register</button>
+                </div>
+                <p>Already have an account?<a href="/login"> Login</a></p>
+            </form>
+        </div>
+        <div class="div_2">
+        </div>
+    </section>
+</body>
+
+</html>

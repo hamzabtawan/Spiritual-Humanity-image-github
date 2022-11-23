@@ -1,0 +1,14 @@
+{% autoescape off %}
+
+Hi {{ name }}
+Thanks for signing up on Spiritual Humanity!
+You must follow this link to activate your account:
+
+link: http://{{ domain }}{% url 'activate' uidb64=uid token=token %}
+
+Stay safe, and don't hesitate to contact us with your feedback.
+
+The Spiritual Humanity Team
+http://Spiritualhumanity.com
+
+{% endautoescape %}

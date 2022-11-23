@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+      {% csrf_token %} 
+      <input type="radio" name="course" value="C" />C 
+      <br>
+      <input type="radio" name="course" value="CPP" />CPP
+      <br>
+      <input type="radio" name="course" value="DS" />DS 
+      <br>
+      <input type="submit" name="btnsubmit" value="Click" />
+
+
+    </form>
+    {{res}}
+</body>
+</html>

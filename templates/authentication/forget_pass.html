@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'home2.css' %}">
+    <link rel="stylesheet" href="{% static 'forget_pass.css' %}">
+    <link rel="stylesheet" href="{% static 'forget_pass_responsive.css' %}">
+    <title>Talash - Password forgot</title>
+</head>
+<body>
+    <section class="login_section_1">
+        <div class="div_1">
+            <form action="" method="post" class="form" id="form">
+                {% csrf_token %}
+                {% load static %}
+                {% if messages %}
+                {% for message in messages %}
+                <div class="alert alert-{{ message.tags }} alert-dismissible fade show my_own_css" role="alert">
+                    {{ message }}
+                </div>
+                {% endfor %}
+                {% endif %}
+                <h1>FORGET PASSWORD?</h1>
+                <p>Please enter your account details</p>
+                <label for="password">Username</label>
+                <input class="input" type="text" name="username" id="" placeholder="enter your username" required>
+                <div class="div1">
+                    <input type="checkbox" required> 
+                    <p style="margin: 0;">I agreed to <a href="/terms-of-condition" target="_blank"> terms and conditions</a></p>
+                </div>
+                <div class="div2">
+                    <input class="input2" type="button" value="Back" onclick="history.back()">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="div_2">
+        </div>
+    </section>
+</body>
+</html>

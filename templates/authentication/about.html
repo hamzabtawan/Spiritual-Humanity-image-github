@@ -1,0 +1,153 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'home2.css' %}">
+    <link rel="stylesheet" href="{% static 'home_responsive2.css' %}">
+    <link rel="stylesheet" href="{% static 'about.css' %}">
+    <link rel="stylesheet" href="{% static 'about_responsive.css' %}">
+    <title>Talash - About</title>
+</head>
+
+<body>
+    <header class="main_header topnav changable" id="myTopnav">
+        <div class="header_left topnav_left color">
+            <div class="header_left_1">
+                <a class="own" href="/"><i class="fa fa-home fa-lg" style="color: white;"
+                        aria-hidden="true"></i></a>
+                <a href="/about" class="nav-link">About</a>
+                <a href="/contact" class="nav-link">Contact Us</a>
+                <a href="/login" class="nav-link">Login</a>
+                <a href="/register" class="nav-link">Register</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div class="header_left_2">
+                <p class="own"><i class="fa fa-phone fa-lg" style="color: white;" aria-hidden="true"></i> 03310206211
+                </p>
+                <p><i class="fa fa-envelope fa-lg" style="color: white;" aria-hidden="true"></i> hamzabtawan@gmail.com
+                </p>
+            </div>
+        </div>
+        <div class="header_right topnav_right" id="myTopnav2">
+            <div>
+                <a class="own" href="/"><i class="fa fa-home fa-lg" style="color: white;"
+                    aria-hidden="true"></i></a>
+                    <a href="/about" class="nav-link">About</a>
+                    <a href="/contact" class="nav-link">Contact Us</a>
+                    <a href="/login" class="nav-link">Login</a>
+                    <a href="/register" class="nav-link">Register</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="section1">
+        <h1>About Us</h1>
+        <!-- <div class="section1_left">
+        </div>
+        <div class="section1_right">
+            
+        </div> -->
+    </div>
+    <div class="about_one">
+        <div class="about_one_1">
+            <img src="{% static 'protect4.jpg' %}" alt="">
+        </div>
+        <div class="about_one_2">
+            <h2>We find your’s favourite</h2>
+            <p>
+                We gives you an efficient and effective method to find your missing person. Our web app will make it easier to get information of your missing person. We work with the collaboration of Edhi. 
+                Speed is of the essence in cases of missing person, and this app will help us overcome traditional barriers such as loss of time and a long reporting process.
+            </p>
+            <p>
+                This is a platform to find your missing and accidental person if died or in the critical condition. The App include a system of facial recognition, Artificial Intelligence (AI).
+            </p>
+            <button type="submit"><a href="/register" >Get Started</a></button>
+        </div>
+    </div>
+    <div class="about_two">
+        <div class="about_two_1">
+            <h1>How Talash works</h1>
+            <p>Our process from the user's feede information till the final result generated is very convenient</p>
+        </div>
+        <div class="about_two_2">
+            <div class="about_two_2_1">
+                <h1>1</h1>
+                <i class="fa fa-upload fa-lg" style="color: rgb(43, 43, 43); font-size: 5rem; margin: 20px 0;"
+                        aria-hidden="true"></i>
+                <h2>Upload</h2>
+                <p>Upload an image of your missing loved one and let us handle the rest</p>
+            </div>
+            <div class="about_two_2_2">
+                <h1>2</h1>
+                <i class="fa fa-search fa-lg" style="color: rgb(43, 43, 43); font-size: 5rem; margin: 20px 0;"
+                        aria-hidden="true"></i>
+                <h2>Search</h2>
+                <p>Choose the image that best fit the profile of a person. Our AI shortlists the nearest match</p>
+            </div>
+            <div class="about_two_2_3">
+                <h1>3</h1>
+                <i class="fa fa-map-marker fa-lg" style="color: rgb(43, 43, 43); font-size: 5rem; margin: 20px 0;"
+                        aria-hidden="true"></i>
+                <h2>Locate</h2>
+                <p>The info will be displayed of the selected profile of the person. Reach Out with the provided info</p>
+            </div>
+        </div>
+    </div>
+    <div class="section8">
+        <div class="section8_inner">
+            <h3>Our Purpose</h3>
+            <p id="justify">
+                In the meantime, there is a need of computerization for mechanizing the errand of tracking down the
+                specific individual by perceiving specific picture and contrasting that picture and other picture to
+                check regardless of whether the two pictures has same qualities. By doing this we will come to know
+                whether the missing individual in the picture clicked from specific area is right or not, and on the off
+                chance that it is right then police can begin their subsequent stages to track down the individual from
+                that area.
+            </p>
+        </div>
+        <div class="section8_inner">
+            <h3>Quick Links</h3>
+            <p><a href="/privacy-policy">Privacy Policy</a></p>
+            <p><a href="/terms-of-condition">Terms of Condition</a></p>
+            <p><a href="/about">About</a></p>
+            <p><a href="/contact">Contat Us</a></p>
+            <div>
+                <a href="https://web.facebook.com/" target="_blank"><i class="fa fa-facebook-square fa-lg" style="color: rgb(50, 141, 153);"
+                        aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-lg" style="color: rgb(50, 141, 153);"
+                        aria-hidden="true"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-lg" style="color: rgb(50, 141, 153);" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="section8_inner">
+            <h3>Get Quick Response</h3>
+            <p>Please submit your email to get our fast service briefings.</p>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <button type="submit">Submit</button>
+        </div>
+        <div class="section8_inner">
+            <h3>Our Street Address</h3>
+            <a href="https://goo.gl/maps/EQiaSbHUrWN9DukL8" target="_blank">Gulshan-E-Iqbal, Karachi</a>
+            <p>Sir Syed University of Engineering and Technology</p>
+            <a href="https://goo.gl/maps/1scGKzyEGwYnNPyq6" target="_blank">Malir Cantt, Karachi</a>
+            <p>Cantt Bazaar, Malir Cantt</p>
+        </div>
+
+    </div>
+    <footer class="footer">
+        <p>Copyright © 2022 - All Rights Reserved - <a href="/">Talash</a></p>
+    </footer>
+    <script src="{% static 'home2.js' %}"></script>
+</body>
+
+</html>

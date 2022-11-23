@@ -1,0 +1,262 @@
+@media screen and (max-width: 1004px) {
+    /* .section1 {
+        height: 150px;
+    } */
+
+    .section1 h1 {
+        /* font-size: 2.9rem; */
+        margin-left: 100px;
+
+    }
+}
+
+@media screen and (max-width: 882px) {
+    .section1 {
+        height: 130px;
+    }
+
+    .section1 h1 {
+        /* font-size: 2.8rem; */
+        margin-left: 100px;
+
+    }
+}
+
+@media screen and (max-width: 819px) {
+    .section1 {
+        height: 110px;
+    }
+
+    .section1 h1 {
+        font-size: 2.6rem;
+
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .section1 {
+        height: 90px;
+    }
+
+    .section1 h1 {
+        font-size: 2rem;
+
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .section1 {
+        height: 100px;
+        background-position: right;
+    }
+
+    .section1 h1 {
+        font-size: 2.4rem;
+        margin-left: 20px;
+
+    }
+}
+
+@media screen and (max-width: 526px) {
+    /* .section1 {
+        height: 125px;
+    }
+
+    .section1 h1 {
+        font-size: 2.6rem;
+
+    } */
+}
+
+@media screen and (max-width: 526px) {
+    .section1 {
+        background:rgb(78, 185, 189);
+        justify-content: center;
+    }
+
+    .section1 h1 {
+        font-size: 2rem;
+        color: white;
+        margin-left: 0px;
+    }
+}
+
+
+/* BODY */
+@media screen and (max-width: 1184px) {
+    .contact_two_1 {
+        margin-bottom: 0px;
+    }
+
+}
+
+@media screen and (max-width: 856px) {
+
+    .contact_one {
+        justify-content: center;
+        padding: 50px 50px;
+    }
+
+    .contact_one form {
+        width: 400px;
+        padding: 0 25px;
+    }
+
+    .contact_one form label {
+        width: 400px;
+    }
+
+    .contact_one form input {
+        width: 400px;
+    }
+
+    .contact_one form textarea {
+        width: 400px;
+    }
+
+    .contact_one form button {
+        width: 120px;
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+
+    .contact_one {
+        padding: 50px 0px;
+    }
+
+    .contact_one form {
+        width: 350px;
+    }
+
+    .contact_one form label {
+        width: 350px;
+    }
+
+    .contact_one form input {
+        width: 350px;
+    }
+
+    .contact_one form textarea {
+        width: 350px;
+    }
+
+}
+
+@media screen and (max-width: 428px) {
+
+
+    .contact_one form {
+        width: 260px;
+    }
+
+    .contact_one form label {
+        width: 260px;
+    }
+
+    .contact_one form input {
+        width: 260px;
+    }
+
+    .contact_one form textarea {
+        width: 260px;
+    }
+
+}
+
+@media screen and (max-width: 342px) {
+
+
+    .contact_one form {
+        width: 240px;
+    }
+
+    .contact_one form label {
+        width: 240px;
+    }
+
+    .contact_one form input {
+        width: 240px;
+    }
+
+    .contact_one form textarea {
+        width: 240px;
+    }
+
+}
+
+@media screen and (max-width: 314px) {
+
+
+    .contact_one form {
+        width: 230px;
+    }
+
+    .contact_one form label {
+        width: 230px;
+    }
+
+    .contact_one form input {
+        width: 230px;
+    }
+
+    .contact_one form textarea {
+        width: 230px;
+    }
+
+}
+
+@media screen and (max-width: 304px) {
+
+
+    .contact_one form {
+        width: 215px;
+    }
+
+    .contact_one form label {
+        width: 215px;
+        font-size: 0.8rem;
+    }
+
+    .contact_one form input {
+        width: 215px;
+        font-size: 0.8rem;
+    }
+
+    .contact_one form textarea {
+        width: 215px;
+        font-size: 0.8rem;
+    }
+
+}
+@media screen and (max-width: 722px){
+    .contact_two{
+        flex-direction: column;
+        height: 600px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 354px){
+    
+    .contact_two_2{
+        /* border: 2px solid red; */
+        width: 300px;
+    }
+}
+@media screen and (max-width: 326px){
+    .contact_two_1{
+        width: 250px;
+    }
+    .contact_two_1 h3{
+        width: 230px;
+    }
+    .contact_two_1 p{
+        width: 230px;
+    }
+    .contact_two_2{
+        /* border: 2px solid red; */
+        width: 250px;
+        height: 250px;
+    }
+}

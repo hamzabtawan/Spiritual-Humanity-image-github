@@ -1,0 +1,143 @@
+.section1{    
+    background: url("contact5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* border: 2px solid red; */
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.section1 h1{
+    /* border: 10px solid blue; */
+    font-size: 3rem;
+    font-weight: lighter;
+    color: rgb(71, 71, 71);
+    margin-left: 200px;
+
+}
+.contact_one{
+    /* border: 2px solid rgb(25, 0, 255); */
+    /* background-color: rgb(213, 231, 247); */
+    background-color: rgb(240, 248, 255);
+    /* background-image: linear-gradient(white, rgb(140, 173, 201), rgb(72, 147, 212)); */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px 150px;
+}
+.contact_one form{
+    border: 1px solid rgb(158, 158, 158);
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 2px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 550px;
+    padding: 0 25px;
+}
+.contact_one form label{
+    /* border: 2px solid blue; */
+    font-size: 1rem;
+    color: gray;
+    width: 500px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.contact_one form input{
+    border: 1px solid rgb(209, 209, 209);
+    font-size: 0.9rem;
+    color: gray;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+.contact_one form textarea{
+    border: 1px solid rgb(209, 209, 209);
+    font-size: 0.9rem;
+    color: gray;
+    width: 500px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    /* height: 30px; */
+}
+.contact_one form button{
+    /* border: 2px solid blue; */
+    font-size: 1rem;
+    background-color: rgb(50, 141, 153);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.contact_two{
+    /* border: 2px solid rgb(255, 94, 0); */
+    background-color: white;
+    overflow-x: visible;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 350px;
+    /* padding: 0px 150px; */
+}
+.contact_two_1{
+    border: 1px solid rgb(209, 209, 209);
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px gray;
+    background-color: white;
+    border-radius: 5px;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 350px;
+}
+.contact_two_1 h3{
+    /* border: 2px solid rgb(25, 0, 255); */
+    width: 250px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: rgb(58, 58, 58);
+}
+.contact_two_1 p{
+    /* border: 2px solid rgb(25, 0, 255); */
+    width: 250px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: rgb(58, 58, 58);
+}
+.contact_two_2{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 200px;
+}
+.contact_two_2 h1{
+    /* border: 2px solid red; */
+    color: rgb(44, 42, 42);
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+.contact_two_2 h3{
+    /* border: 2px solid red; */
+    color: rgb(44, 42, 42);
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+.contact_two_2 p{
+    /* border: 2px solid red; */
+    color: rgb(44, 42, 42);
+    font-size: 0.9rem;
+}

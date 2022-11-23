@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'login.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'login_responsive.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'home2.css' %}" />
+    <title>Talash - Login</title>
+</head>
+
+<body>
+    <section class="login_section_1">
+        <div class="div_1">
+            <form action="/login" method="post" class="login_form" id="form">
+                {% csrf_token %}
+                {% load static %}
+                {% if messages %}
+                {% for message in messages %}
+                <div class="alert alert-{{ message.tags }} alert-dismissible fade show my_own_css" role="alert">
+                    {{ message }}
+                </div>
+                {% endfor %}
+                {% endif %}
+                <h1>WELCOME</h1>
+                <p>Please login to your account</p>
+                <label for="username">Username</label>
+                <input class="input" type="text" name="username" id="" placeholder="enter your username">
+                <label for="password">Password</label>
+                <input class="input" type="password" name="password" id="" placeholder="enter your password">
+                <p>Forgot password?<a href="/forgot-password"> Click here </a></p>
+                <div class="div2">
+                    <!-- <a href="index.html"><i class="fa fa-arrow-left"
+                        aria-hidden="true"></i></a> -->
+                    <input class="input2" type="button" value="Back" onclick="history.back()">
+                    <button type="submit">Login</button>
+                </div>
+                <p>Don't have an account?<a href="/register"> Register</a></p>
+            </form>
+        </div>
+        <div class="div_2">
+        </div>
+    </section>
+</body>
+
+</html>
